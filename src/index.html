@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="fr">
-<head>
+    <head>
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mathis Debras - AdaptHome</title>
@@ -21,294 +22,342 @@
         <meta name="twitter:title" content="Mathis Debras | AdaptHome - Landing page">
         <meta name="twitter:description" content="La landing page de mon site internet AdaptHome.">
         <meta name="twitter:image" content="http://mathis-debras.be/projets/tfa/assets/images/logo.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="color-header">
+            <header class="header_section">
+                <div class="container-header">
+                    <nav class="navbar custom_nav-container">
+                        <a class="navbar-brand" href="index.html">
+                            <span>Mathis Debras</span>
+                        </a>
+                        <nav class="header__nav" id="burger-menu">
+                            <ul class="header__el">
+                                <li class="header__el"><a class="header__color" href="#interview">Interviews</a></li>
+                                <li class="header__el"><a class="header__color" href="#defi">Défis</a></li>
+                                <li class="header__el"><a class="header__color" href="#app">Application</a></li>
+                                <li class="header__el"><a class="header__color" href="#conception">Conception</a></li>
+                                <li class="header__el"><a class="header__color" href="#montrer">Montrer</a></li>
+                                <li class="header__el"><a class="header__color" href="#conclusion">Conclusion</a></li>
+                            </ul>
+                        </nav>
+                        <div class="navbar-collapse">
+                            <div class="custom_menu-btn">
+                                <button onclick="openNav('myNav')">
+                                    <span class="s-1"></span>
+                                    <span class="s-2"></span>
+                                    <span class="s-3"></span>
+                                </button>
+                            </div>
+                            <div id="myNav" class="overlay">
+                                <div class="overlay-content">
+                                    <a class="two-lines overlay-content--1 actif" href="index.html">Accueil</a>
+                                    <a class="two-lines overlay-content--2" href="https://www.figma.com/file/fdjlIKoY82zcPt0xpAmqme/UI-KIT-TFA?type=design&t=MGxlvhaLtU9TzFFk-1">Ui-kit</a>
+                                    <a class="two-lines overlay-content--3" href="credits.html">Crédits</a>
+                                    <a class="two-lines overlay-content--4" href="https://mathis-debras.be">Portfolio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section class=" slider_section position-relative grid-landing">
+                <div class="container">
+                    <div class="row">
+                        <div class="row-element grid-landing ">
+                            <div class="detail-box m-grid-l">
+                                <h1 class="marg-t m-grid-l titre-js">AdaptHome</h1>
+                                <h2 class="h3--landing m-grid-l-2 ">L'objectif de ce projet est d'identifier les problèmes auxquels font face des utilisateurs variés,
+                                                                     de communiquer avec eux pour comprendre leurs besoins et de proposer des solutions à ces problèmes.
+                                                                      Le travail sera présenté sous forme de site web et de présentation visuelle pour démontrer la faisabilité des solutions proposées.</h2>
+                                <div class="down m-grid-l-3 btn-js">
+                                    <a href="https://docs.google.com/document/d/1hebhrwfLF5QLUHem0F2nKkQudeq4CK7C8qK8S2JrFvw/edit?usp=sharing" class="slide-btn down">
+                                        <span>Document</span>
+                                        <span>Projet</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="m-grid-l-4" id="audit">
+                                <div class="wrapper m-grid-l-4 proto__section">
+                                    <input type="radio" name="point" id="slide1" disabled>
+                                    <input type="radio" name="point" id="slide2" checked>
+                                    <input type="radio" name="point" id="slide3" disabled>
+                                    <div class="slider m-grid-l-4">
+                                        <div class="slides slide1">
+                                            <div class="slides__content">
+                                                <img class="img-m" src="assets/images/logo.png" alt="Logo" loading="lazy" decoding="async" style="background-size: cover;">
+                                            </div>
+                                        </div>
+                                        <div class="slides slide2 m-grid-l-4">
+                                            <div class="slides__content">
+                                                <img class="img-m" src="assets/images/logo.png" alt="Logo" loading="lazy" decoding="async" style="background-size: cover;">
+                                            </div>
+                                        </div>
+                                        <div class="slides slide3 m-grid-l-4">
+                                            <div class="slides__content">
+                                                <img class="img-m" src="assets/images/logo.png" alt="Logo" loading="lazy" decoding="async" style="background-size: cover;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="controls">
+                                        <label for="slide1"></label>
+                                        <label for="slide2"></label>
+                                        <label for="slide3"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="infinite-slider">
+                <p class="border_infinite-slider">Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
+                     Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
+                      Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
+                       Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
+                       Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .</p>
+            </div>
+        </div>
+        
+        <div class="grid--template fonct">
+            <div class="grid-r">
+                <h4 id="interview" class="title  title--template template1">Réfléchir ensemble</h4>
+                <div class="list-template">
+                    <h5 class="title title--template2">La rencontre</h5>
+                    <p class="p-temp">Mes premières rencontres
+                         avec des utilisateurs à mobilité réduite ont été possibles grâce à un ami qui m'a mis en contact avec d'autres personnes dans la même situation. En tant que personne très timide,
+                          cette première rencontre m'a permis de surmonter mes appréhensions et de mieux comprendre les difficultés que mon ami rencontre dans sa vie quotidienne.</p>
+                    <h5 class="title title--template2">Ce qu'ils m'ont apporté</h5>
+                    <p class="p-temp">Ces rencontres
+                         ont été très enrichissantes et ont éveillé ma curiosité pour mieux comprendre les différentes situations de handicap.
+                          Les personnes que j'ai rencontrées ont été très ouvertes et m'ont apporté une meilleure compréhension de leurs expériences de vie.
+                           Celles-ci ont été pour moi une source de motivation pour poursuivre mes recherches sur les solutions pour améliorer leur qualité de vie.
+                    </p>
+                    <ul>
+                        <li class="link__item">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                          <a href="https://docs.google.com/spreadsheets/d/16JX_-sXlwjQIY9J8EEcIStc677jv81dQW9uqYr_Iyl4/edit?usp=sharing">Les interviews</a>
+                        </li>
+                        <li class="link__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                            <a href="https://forms.gle/PefEx7jhKG8jqv587">Les questions</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid-l image-template ">
+                <img src="assets/images/interview.png" class="marg-template png-template png-1" alt="Mon formulaire avec quelques questions pour les personnes à mobilité réduite">
+            </div>
+        </div>
 
-        <link rel="stylesheet" href="styles/app.css">
-        <script src="scripts/app.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
-</head>
-<body>
-  <div class="color-header">
-      <header class="header_section">
-          <div class="container-header">
-              <nav class="navbar custom_nav-container">
-                  <a class="navbar-brand" href="index.html">
-                      <span>Mathis Debras</span>
-                  </a>
-                  <nav class="header__nav" id="burger-menu">
-                      <ul class="header__el">
-                          <li class="header__el"><a class="header__color" href="#interview">Interviews</a></li>
-                          <li class="header__el"><a class="header__color" href="#defi">Défis</a></li>
-                          <li class="header__el"><a class="header__color" href="#conception">Conception</a></li>
-                          <li class="header__el"><a class="header__color" href="#montrer">Montrer</a></li>
-                      </ul>
-                  </nav>
-                  <div class="navbar-collapse">
-                      <div class="custom_menu-btn">
-                          <button onclick="openNav('myNav')">
-                              <span class="s-1"></span>
-                              <span class="s-2"></span>
-                              <span class="s-3"></span>
-                          </button>
-                      </div>
-                      <div id="myNav" class="overlay">
-                          <div class="overlay-content">
-                              <a class="two-lines overlay-content--1 actif" href="index.html">Accueil</a>
-                              <a class="two-lines overlay-content--2" href="https://www.figma.com/file/fdjlIKoY82zcPt0xpAmqme/UI-KIT-TFA?type=design&t=MGxlvhaLtU9TzFFk-1">Ui-kit</a>
-                              <a class="two-lines overlay-content--3" href="credits.html">Crédits</a>
-                              <a class="two-lines overlay-content--4" href="https://mathis-debras.be">Portfolio</a>
-                          </div>
-                      </div>
-                  </div>
-              </nav>
-          </div>
-      </header>
-      <section class=" slider_section position-relative grid-landing">
-          <div class="container">
-              <div class="row">
-                  <div class="row-element grid-landing ">
-                      <div class="detail-box m-grid-l">
-                          <h1 class="marg-t m-grid-l titre-js">AdaptHome</h1>
-                          <h2 class="h3--landing m-grid-l-2 ">L'objectif de ce projet est d'identifier les problèmes auxquels font face des utilisateurs variés,
-                                                               de communiquer avec eux pour comprendre leurs besoins et de proposer des solutions à ces problèmes.
-                                                                Le travail sera présenté sous forme de site web et de présentation visuelle pour démontrer la faisabilité des solutions proposées.</h2>
-                          <div class="down m-grid-l-3 btn-js">
-                              <a href="https://docs.google.com/document/d/1hebhrwfLF5QLUHem0F2nKkQudeq4CK7C8qK8S2JrFvw/edit?usp=sharing" class="slide-btn down">
-                                  <span>Document</span>
-                                  <span>Projet</span>
-                              </a>
-                          </div>
-                      </div>
-                      <div class="m-grid-l-4" id="audit">
-                          <div class="wrapper m-grid-l-4 proto__section">
-                              <input type="radio" name="point" id="slide1" disabled>
-                              <input type="radio" name="point" id="slide2" checked>
-                              <input type="radio" name="point" id="slide3" disabled>
-                              <div class="slider m-grid-l-4">
-                                  <div class="slides slide1">
-                                      <div class="slides__content">
-                                          <img class="img-m" src="assets/images/logo.png" alt="Logo" loading="lazy" decoding="async" style="background-size: cover;">
-                                      </div>
-                                  </div>
-                                  <div class="slides slide2 m-grid-l-4">
-                                      <div class="slides__content">
-                                          <img class="img-m" src="assets/images/logo.png" alt="Logo" loading="lazy" decoding="async" style="background-size: cover;">
-                                      </div>
-                                  </div>
-                                  <div class="slides slide3 m-grid-l-4">
-                                      <div class="slides__content">
-                                          <img class="img-m" src="assets/images/logo.png" alt="Logo" loading="lazy" decoding="async" style="background-size: cover;">
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="controls">
-                                  <label for="slide1"></label>
-                                  <label for="slide2"></label>
-                                  <label for="slide3"></label>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <div class="infinite-slider">
-          <p class="border_infinite-slider">Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
-               Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
-                Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
-                 Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .
-                 Adaptibilité · Communauté · Recherche · Logement · Mobilté · Accessibilté · Bien-être .</p>
-      </div>
-  </div>
-  
-  <div class="grid--template fonct">
-      <div class="grid-r">
-          <h4 id="interview" class="title  title--template template1">Réfléchir ensemble</h4>
-          <div class="list-template">
-              <h5 class="title title--template2">La rencontre</h5>
-              <p class="p-temp">Mes premières rencontres
-                   avec des utilisateurs à mobilité réduite ont été possibles grâce à un ami qui m'a mis en contact avec d'autres personnes dans la même situation. En tant que personne très timide,
-                    cette première rencontre m'a permis de surmonter mes appréhensions et de mieux comprendre les difficultés que mon ami rencontre dans sa vie quotidienne.</p>
-              <h5 class="title title--template2">Ce qu'ils m'ont apporté</h5>
-              <p class="p-temp">Ces rencontres
-                   ont été très enrichissantes et ont éveillé ma curiosité pour mieux comprendre les différentes situations de handicap.
-                    Les personnes que j'ai rencontrées ont été très ouvertes et m'ont apporté une meilleure compréhension de leurs expériences de vie.
-                     Celles-ci ont été pour moi une source de motivation pour poursuivre mes recherches sur les solutions pour améliorer leur qualité de vie.
-              </p>
-              <ul>
-                  <li class="link__item">
+        <div class="box">
+            <div class="box__el box1">
+                
+                <div class="end">
+                    <h5>85%</h5>
+                    <p>Trouvent un kot après plus de 6 mois de recherche</p>
+                </div>
+            </div>
+            <div class="box__el box2">
+                <div class="">
+                    <h5>100%</h5>
+                    <p>Ont besoins d'un aménagement minimum pour vivre convenablement</p>
+                </div>
+            </div>
+            <div class="box__el box3">
+                <div class="">
+                    <h5>85%</h5>
+                    <p>Sont passé par des associations pour la recherche de logements</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid--template fonct">
+            <div class="grid-r">
+                <h4 id="defi" class="title  title--template template1">Réfléchir aux défis</h4>
+                <div class="list-template">
+                    <h5 class="title title--template2">Le problème</h5>
+                    <p class="p-temp">Après avoir rencontré plusieurs personnes en situation de handicap,
+                         j'ai réalisé que ces dernières étaient confrontées à de nombreux problèmes, qu'ils soient mineurs ou majeurs,
+                          liés à leur handicap. Parmi ces difficultés, l'une a particulièrement attiré mon attention :
+                           la recherche d'un logement (kot) adapté pour poursuivre des études supérieures. En effet, pour ces étudiants,
+                            il est primordial de disposer de toutes les installations nécessaires pour pouvoir étudier dans des conditions optimales.
+                             Cependant, trouver un logement répondant à leurs besoins spécifiques d'accessibilité est souvent un véritable parcours du combattant.</p>
+                    <h5 class="title title--template2">Mes idées</p>
+                    <ul class="p-temp">
+                        <li class="liste__color">Un batiment</li>
+                        <p class="liste__color_p">Mon idée première était de concevoir un bâtiment entièrement adapté aux personnes à mobilité réduite.
+                             Cependant, j'ai réalisé que cette approche, bien que importante, pourrait ne pas avoir un impact suffisamment large. </p>
+                        <li class="liste__color">Une association</li>
+                        <p class="liste__color_p">Ma deuxième idée était de fonder une association pour aider les personnes handicapées à trouver des logements adaptés.
+                             Cette initiative vise à combler le manque de logements accessibles et à offrir un soutien pratique dans la recherche et l'obtention de logements
+                              répondant à leurs besoins spécifiques.</p>
+                    </ul>
+                    <h5 class="title title--template2">La solution</h5>
+                    <p class="p-temp">Pour répondre aux difficultés rencontrées par les étudiants porteurs d'un handicap dans leur recherche de kot ou de logement adapté,
+                         j'ai conçu une solution innovante.
+                          Mon idée consiste à développer une application qui centralise toutes les offres de kots et de logements disponibles dans leur région.
+                           Cette application permettra aux utilisateurs de spécifier leurs besoins particuliers ainsi que leurs handicaps.</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="grid--template fonct">
+            <div class="grid-r">
+                <h4 id="app" class="title  title--template template1">l'Application</h4>
+                <div class="list-template">
+                    <h5 class="title title--template2">Idée en général</h5>
+                    <p class="p-temp">Lorsque les utilisateurs se connectent à l'application, ils pourront indiquer leurs besoins et leurs handicaps.
+                         Ils pourront ensuite effectuer une recherche dans leur ville en utilisant des filtres tels que l'espace, 
+                         les activités accessibles aux personnes à mobilité réduite, les moyens de transport, les toilettes, les douches, etc.
+                          Toutes ces informations seront regroupées et chaque bâtiment affichera un pourcentage qui déterminera la compatibilité 
+                          de leur handicap avec les installations mises en place dans le bâtiment.
+                    </p>
+                    <h5 class="title title--template2">Les idées de modules</h5>
+                    <p class="p-temp">Mon application pour les personnes en situation de handicap offre plusieurs modules essentiels :
+                        Profil : Les utilisateurs détaillent leurs besoins.
+                        Recherche : Ils trouvent des lieux adaptés.
+                        Compatibilité : Les résultats affichent l'adéquation.
+                        Détails : Infos complètes sur les lieux.
+                        Avis : Échanges d'expériences.
+                        Contribution : Signalement de nouveaux lieux.
+                        Notifications : Nouveautés notifiées.
+                        Accessibilité : Options incluses pour tous.
+                    Ces modules forment une application centrée sur les besoins des utilisateurs en situation de handicap.
+                   </p>
+                   <p class="p-temp">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
-                    <a href="https://docs.google.com/spreadsheets/d/16JX_-sXlwjQIY9J8EEcIStc677jv81dQW9uqYr_Iyl4/edit?usp=sharing">Les interviews</a>
-                  </li>
-                  <li class="link__item">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
-                      <a href="https://forms.gle/PefEx7jhKG8jqv587">Les questions</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-      <div class="grid-l image-template ">
-          <img src="assets/images/interview.jpg" class="marg-template png-template png-1" alt="Image d'une interview">
-      </div>
-  </div>
+                        <a class="header__color" href="#module">Les modules retenus</a></li>
+                   </p>
+                </div>
+            </div>
+            <div class="grid-l image-template ">
+                <img src="assets/images/app.jpg" class="marg-template png-template png-1" alt="l'endroit ou se trouver peut-être la futur application">
+            </div>
+        </div>
 
-  <div class="box">
-      <div class="box__el box1">
-          
-          <div class="end">
-              <h5>85%</h5>
-              <p>Trouvent un kot après plus de 6 mois de recherche</p>
-          </div>
-      </div>
-      <div class="box__el box2">
-          <div class="">
-              <h5>100%</h5>
-              <p>Ont besoins d'un aménagement minimum pour vivre convenablement</p>
-          </div>
-      </div>
-      <div class="box__el box3">
-          <div class="">
-              <h5>85%</h5>
-              <p>Sont passé par des associations pour la recherche de logements</p>
-          </div>
-      </div>
-  </div>
-  
-  <div class="grid--template fonct">
-      <div class="grid-r">
-          <h4 id="defi" class="title  title--template template1">Réfléchir aux défis</h4>
-          <div class="list-template">
-              <h5 class="title title--template2">Le problème</h5>
-              <p class="p-temp">Après avoir rencontré plusieurs personnes en situation de handicap,
-                   j'ai réalisé que ces dernières étaient confrontées à de nombreux problèmes, qu'ils soient mineurs ou majeurs,
-                    liés à leur handicap. Parmi ces difficultés, l'une a particulièrement attiré mon attention :
-                     la recherche d'un logement (kot) adapté pour poursuivre des études supérieures. En effet, pour ces étudiants,
-                      il est primordial de disposer de toutes les installations nécessaires pour pouvoir étudier dans des conditions optimales.
-                       Cependant, trouver un logement répondant à leurs besoins spécifiques d'accessibilité est souvent un véritable parcours du combattant.</p>
-              <h5 class="title title--template2">Mes idées</p>
-              <ul class="p-temp">
-                  <li class="liste__color">Un batiment</li>
-                  <p class="liste__color_p">Mon idée première était de concevoir un bâtiment entièrement adapté aux personnes à mobilité réduite.
-                       Cependant, j'ai réalisé que cette approche, bien que importante, pourrait ne pas avoir un impact suffisamment large. </p>
-                  <li class="liste__color">Une association</li>
-                  <p class="liste__color_p">Ma deuxième idée était de fonder une association pour aider les personnes handicapées à trouver des logements adaptés.
-                       Cette initiative vise à combler le manque de logements accessibles et à offrir un soutien pratique dans la recherche et l'obtention de logements
-                        répondant à leurs besoins spécifiques.</p>
-              </ul>
-              <h5 class="title title--template2">La solution</h5>
-              <p class="p-temp">Pour répondre aux difficultés rencontrées par les étudiants porteurs d'un handicap dans leur recherche de kot ou de logement adapté,
-                   j'ai conçu une solution innovante.
-                    Mon idée consiste à développer une application qui centralise toutes les offres de kots et de logements disponibles dans leur région.
-                     Cette application permettra aux utilisateurs de spécifier leurs besoins particuliers ainsi que leurs handicaps.</p>
-              </div>
-      </div>
-  </div>
+        <div id="module" class="module">
+            <div class="module-contener module1">
+                <div class="module-contener--image photo-module1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.75 360.72">
+                        <g id="layer1" inkscape:label="Ebene 1" inkscape:groupmode="layer" transform="translate(-170.44 -341.34)">
+                        <path id="path2830" style="fill: #19305c" d="m350.81 346.38c-96.837 0-175.34 78.506-175.34 175.34 0 86.827 63.115 158.88 145.97 172.85l0.54681 0.63794c0.38737-0.1082 0.76805-0.22342 1.1544-0.33416 9.0144 1.4288 18.258 2.1569 27.675 2.1569 96.837 0 175.34-78.476 175.34-175.31 0-96.837-78.506-175.34-175.34-175.34zm-7.1996 17.468c0.10406 0.046 0.19984 0.10568 0.30379 0.15189-32.4 17.268-58.882 44.192-75.611 76.918h-53.375c26.421-44.332 73.931-74.616 128.68-77.07zm14.551 0c54.687 2.5029 102.13 32.778 128.53 77.07h-53.253c-16.722-32.726-43.186-59.65-75.581-76.918 0.10395-0.0462 0.19972-0.10587 0.30378-0.15189zm-9.9033 4.7694v72.3h-73.09c16.482-30.862 42.037-56.134 73.09-72.3zm6.106 0.45567c30.659 16.184 55.886 41.268 72.209 71.845h-72.209v-71.845zm-142.87 77.92h53.83c-10.083 21.72-15.935 45.797-16.526 71.176h-55.987c0.5686-25.704 7.2487-49.905 18.683-71.176zm60.605 0h76.158v71.176h-93.352c0.61354-25.473 6.724-49.568 17.194-71.176zm82.264 0h75.277c10.466 21.608 16.581 45.703 17.194 71.176h-92.471v-71.176zm82.052 0h53.709c11.434 21.271 18.114 45.472 18.683 71.176h-55.866c-0.59073-25.379-6.4467-49.456-16.526-71.176zm-243.63 77.252h55.987c0.24107 24.147 5.2381 47.146 14.126 68.108h-53.526c-10.279-20.547-16.203-43.661-16.587-68.108zm62.093 0h93.383v68.108h-78.71c-9.2163-20.858-14.422-43.896-14.673-68.108zm99.489 0h92.502c-0.2505 24.215-5.4605 47.244-14.673 68.108h-77.829v-68.108zm98.608 0h55.866c-0.3836 24.447-6.3072 47.561-16.587 68.108h-53.405c8.8827-20.958 13.885-43.964 14.126-68.108zm-240.35 74.214h52.98c16.107 34.353 42.792 62.768 75.855 81.049-55.488-3.2391-103.27-35.113-128.83-81.049zm59.754 0h75.885v77.738c-32.855-17.106-59.573-44.417-75.885-77.738zm81.991 0h75.004c-16.164 33.056-42.528 60.206-75.004 77.343v-77.343zm81.748 0h52.889c-25.539 45.894-73.26 77.73-128.68 81.019-1.5715 0.0932-3.1555 0.16563-4.739 0.21264-0.40426 0.012-0.81012 0.0214-1.2151 0.0303 0.32346-0.009 0.64848-0.0213 0.9721-0.0303 0.0808-0.003 0.1623 0.003 0.24303 0 1.5847-0.0526 3.1659-0.11928 4.739-0.21264 33.043-18.277 59.693-46.684 75.794-81.019z"/></g>
+                    </svg>
+                </div>
+                <div class="module-contener--text">
+                    <h4 class="title h2-module1">Localisation</h2>
+                    <p class="desc p-module1">«L’application permet de renseigner la ville ou l'on vit et propose directement les logements les plus proches.»</p>
+                </div>
+            </div>
+            <div class="module-contener module2">
+                <div class="module-contener--image photo-module2">
+                    <svg class="svg__color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                        <path transform="matrix(6.0787 0 0 6.0787 -120.93 -180)" d="m20.945 31.999c0-0.348 0.082-0.67 0.246-0.967 0.168-0.3 0.397-0.537 0.686-0.709 0.289-0.175 0.602-0.263 0.937-0.263 0.266 0 0.514 0.052 0.745 0.158 0.234 0.105 0.433 0.248 0.597 0.428 0.168 0.175 0.299 0.38 0.393 0.615 0.094 0.234 0.14 0.48 0.14 0.738 0 0.344-0.082 0.666-0.246 0.967s-0.39 0.541-0.679 0.721c-0.289 0.179-0.606 0.269-0.95 0.269-0.351 0-0.671-0.09-0.96-0.269-0.286-0.18-0.508-0.42-0.668-0.721-0.161-0.305-0.241-0.627-0.241-0.967zm1.43 5.496l3.873-6.803c0.125-0.214 0.242-0.373 0.352-0.474 0.109-0.106 0.24-0.158 0.392-0.158 0.129 0 0.248 0.031 0.358 0.093 0.109 0.059 0.195 0.141 0.257 0.246 0.063 0.102 0.094 0.211 0.094 0.329 0 0.144-0.031 0.281-0.094 0.41-0.062 0.125-0.156 0.289-0.281 0.492l-3.873 6.803c-0.113 0.207-0.226 0.365-0.34 0.474-0.113 0.11-0.248 0.164-0.404 0.164-0.199 0-0.367-0.066-0.504-0.199s-0.205-0.291-0.205-0.474c0-0.145 0.029-0.278 0.088-0.399 0.062-0.121 0.158-0.289 0.287-0.504zm-0.064-5.496c0 0.164 0.045 0.303 0.134 0.416 0.094 0.109 0.217 0.164 0.369 0.164 0.157 0 0.28-0.055 0.37-0.164 0.089-0.113 0.134-0.252 0.134-0.416 0-0.16-0.045-0.293-0.134-0.398-0.09-0.11-0.213-0.164-0.37-0.164-0.152 0-0.275 0.054-0.369 0.164-0.089 0.105-0.134 0.238-0.134 0.398zm4.072 5.127c0 0.152 0.045 0.285 0.135 0.398 0.093 0.11 0.216 0.165 0.369 0.165 0.152 0 0.273-0.055 0.363-0.165 0.094-0.113 0.141-0.246 0.141-0.398 0-0.16-0.047-0.295-0.141-0.404-0.09-0.114-0.211-0.17-0.363-0.17-0.153 0-0.276 0.056-0.369 0.17-0.09 0.109-0.135 0.244-0.135 0.404zm-1.371 0c0-0.352 0.082-0.676 0.246-0.973 0.168-0.3 0.394-0.539 0.68-0.714 0.289-0.18 0.605-0.27 0.949-0.27s0.658 0.09 0.943 0.27c0.285 0.179 0.51 0.419 0.674 0.72 0.168 0.297 0.252 0.619 0.252 0.967 0 0.344-0.084 0.664-0.252 0.961-0.164 0.297-0.389 0.535-0.674 0.715s-0.599 0.269-0.943 0.269c-0.356 0-0.678-0.088-0.967-0.263-0.285-0.18-0.508-0.42-0.668-0.721s-0.24-0.621-0.24-0.961z"/>
+                    </svg>
+                </div>
+                <div class="module-contener--text">
+                    <h4 class="title h2-module2">Compatibilté</h2>
+                    <p class="desc p-module2">«L'utilisateur pourra remplir ses besoins et l'application cherchera le logement le plus compatible.»</p>
+                </div>
+            </div>
+            <div class="module-contener module3">
+                <div class="module-contener--image photo-module3">
+                    <img src="assets/images/poeple.png" alt="Une maison">
+                </div>
+                <div class="module-contener--text">
+                    <h4 class="title h2-module3">Communauté</h2>
+                    <p class="desc p-module3">«AdaptHome donne accès à un espace de discussion pour tout les utilisateurs du batiment en question.»</p>
+                </div>
+            </div>
+            <div class="module-contener module4">
+                <div class="module-contener--image photo-module4">
+                    <img src="assets/images/home.png" alt="Une maison">
+                </div>
+                <div class="module-contener--text">
+                    <h4 class="title h2-module4">Logements</h2>
+                    <p class="desc p-module4">«D'autres utilisateurs peuvent poster des annonces soit de recherche de logement, soit ajouter un nouveau logement.»</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="grid--template fonct">
+            <div class="grid-r">
+                <h4 id="conception" class="title  title--template template1">La conception</h4>
+                <div class="list-template">
+                    <h5 class="title title--template2">Conception papier</h5>
+                    <p class="p-temp">La réalisation des croquis de ma landing page mobile a été un processus créatif important.
+                         J'ai conçu des croquis pour visualiser la structure et le design de ma page, en mettant l'accent sur la simplicité et l'ergonomie.
+                          J'ai exploré différentes mises en page, joué avec les visuels pour attirer l'attention des utilisateurs.</p>
+                    <h5 class="title title--template2">Conception numérique</h5>
+                    <p class="p-temp">J'ai utilisé Figma en combinaison avec mes croquis papier pour avancer dans la conception.
+                         Mon objectif était de créer des wireframes interactifs. Figma m'a permis de fusionner ces éléments ensemble,
+                          tandis que les fonctionnalités interactives m'ont aidé à anticiper les problèmes potentiels.</p>
+                    </div>
+            </div>
+            <div class="grid-l image-template ">
+                <img src="assets/images/croquis.jpg" srcset="assets/images/croquis.jpg 1x, assets/images/croquis@2x.png 2x" class="marg-template png-template png-1" alt="Un de mes croquis papier">
+            </div>
+        </div>
 
-  <div class="module">
-      <div class="module-contener module1">
-          <div class="module-contener--image photo-module1">
-              <svg class="svg__color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.068 100">
-                  <path d="m28.034 0c-15.482 0-28.034 12.552-28.034 28.034s28.034 71.966 28.034 71.966 28.034-56.483 28.034-71.966-12.551-28.034-28.034-28.034zm0 40.477c-6.871 0-12.442-5.572-12.442-12.442 0-6.872 5.571-12.442 12.442-12.442 6.872 0 12.442 5.57 12.442 12.442 0.001 6.87-5.57 12.442-12.442 12.442z"/>
-              </svg>
-          </div>
-          <div class="module-contener--text">
-              <h4 class="title h2-module1">Localisation</h2>
-              <p class="desc p-module1">«L’application permet de renseigner la ville ou l'on vit et propose directement les logements les plus proches.»</p>
-          </div>
-      </div>
-      <div class="module-contener module2">
-          <div class="module-contener--image photo-module2">
-              <svg class="svg__color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
-                  <path transform="matrix(6.0787 0 0 6.0787 -120.93 -180)" d="m20.945 31.999c0-0.348 0.082-0.67 0.246-0.967 0.168-0.3 0.397-0.537 0.686-0.709 0.289-0.175 0.602-0.263 0.937-0.263 0.266 0 0.514 0.052 0.745 0.158 0.234 0.105 0.433 0.248 0.597 0.428 0.168 0.175 0.299 0.38 0.393 0.615 0.094 0.234 0.14 0.48 0.14 0.738 0 0.344-0.082 0.666-0.246 0.967s-0.39 0.541-0.679 0.721c-0.289 0.179-0.606 0.269-0.95 0.269-0.351 0-0.671-0.09-0.96-0.269-0.286-0.18-0.508-0.42-0.668-0.721-0.161-0.305-0.241-0.627-0.241-0.967zm1.43 5.496l3.873-6.803c0.125-0.214 0.242-0.373 0.352-0.474 0.109-0.106 0.24-0.158 0.392-0.158 0.129 0 0.248 0.031 0.358 0.093 0.109 0.059 0.195 0.141 0.257 0.246 0.063 0.102 0.094 0.211 0.094 0.329 0 0.144-0.031 0.281-0.094 0.41-0.062 0.125-0.156 0.289-0.281 0.492l-3.873 6.803c-0.113 0.207-0.226 0.365-0.34 0.474-0.113 0.11-0.248 0.164-0.404 0.164-0.199 0-0.367-0.066-0.504-0.199s-0.205-0.291-0.205-0.474c0-0.145 0.029-0.278 0.088-0.399 0.062-0.121 0.158-0.289 0.287-0.504zm-0.064-5.496c0 0.164 0.045 0.303 0.134 0.416 0.094 0.109 0.217 0.164 0.369 0.164 0.157 0 0.28-0.055 0.37-0.164 0.089-0.113 0.134-0.252 0.134-0.416 0-0.16-0.045-0.293-0.134-0.398-0.09-0.11-0.213-0.164-0.37-0.164-0.152 0-0.275 0.054-0.369 0.164-0.089 0.105-0.134 0.238-0.134 0.398zm4.072 5.127c0 0.152 0.045 0.285 0.135 0.398 0.093 0.11 0.216 0.165 0.369 0.165 0.152 0 0.273-0.055 0.363-0.165 0.094-0.113 0.141-0.246 0.141-0.398 0-0.16-0.047-0.295-0.141-0.404-0.09-0.114-0.211-0.17-0.363-0.17-0.153 0-0.276 0.056-0.369 0.17-0.09 0.109-0.135 0.244-0.135 0.404zm-1.371 0c0-0.352 0.082-0.676 0.246-0.973 0.168-0.3 0.394-0.539 0.68-0.714 0.289-0.18 0.605-0.27 0.949-0.27s0.658 0.09 0.943 0.27c0.285 0.179 0.51 0.419 0.674 0.72 0.168 0.297 0.252 0.619 0.252 0.967 0 0.344-0.084 0.664-0.252 0.961-0.164 0.297-0.389 0.535-0.674 0.715s-0.599 0.269-0.943 0.269c-0.356 0-0.678-0.088-0.967-0.263-0.285-0.18-0.508-0.42-0.668-0.721s-0.24-0.621-0.24-0.961z"/>
-              </svg>
-          </div>
-          <div class="module-contener--text">
-              <h4 class="title h2-module2">Compatibilté</h2>
-              <p class="desc p-module2">«L'utilisateur pourra remplir ses besoins et l'application cherchera le logement le plus compatible.»</p>
-          </div>
-      </div>
-      <div class="module-contener module3">
-          <div class="module-contener--image photo-module3">
-              <img src="assets/images/poeple.png" alt="Des personnes">
-          </div>
-          <div class="module-contener--text">
-              <h4 class="title h2-module3">Communauté</h2>
-              <p class="desc p-module3">«AdaptHome donne accès à un espace de discussion pour tout les utilisateurs du batiment en question.»</p>
-          </div>
-      </div>
-      <div class="module-contener module4">
-          <div class="module-contener--image photo-module4">
-              <img src="assets/images/home.png" alt="Une maison">
-          </div>
-          <div class="module-contener--text">
-              <h4 class="title h2-module4">Logements</h2>
-              <p class="desc p-module4">«D'autres utilisateurs peuvent poster des annonces soit de recherche de logement, soit ajouter un nouveau logement.»</p>
-          </div>
-      </div>
-      
-  </div>
-  <div class="grid--template fonct">
-      <div class="grid-r">
-          <h4 id="conception" class="title  title--template template1">La conception</h4>
-          <div class="list-template">
-              <h5 class="title title--template2">Conception papier</h5>
-              <p class="p-temp">La réalisation des croquis de ma landing page mobile a été un processus créatif important.
-                   J'ai conçu des croquis pour visualiser la structure et le design de ma page, en mettant l'accent sur la simplicité et l'ergonomie.
-                    J'ai exploré différentes mises en page, joué avec les visuels pour attirer l'attention des utilisateurs.</p>
-              <h5 class="title title--template2">Conception numérique</h5>
-              <p class="p-temp">J'ai utilisé Figma en combinaison avec mes croquis papier pour avancer dans la conception.
-                   Mon objectif était de créer des wireframes interactifs. Figma m'a permis de fusionner ces éléments ensemble,
-                    tandis que les fonctionnalités interactives m'ont aidé à anticiper les problèmes potentiels.</p>
-              </div>
-      </div>
-      <div class="grid-l image-template ">
-          <img src="assets/images/croquis.jpg" srcset="assets/images/croquis.jpg 1x, assets/images/croquis@2x.png 2x" class="marg-template png-template png-1" alt="Mes croquis papier">
-      </div>
-  </div>
+        <div class="grid--template fonct">
+            <div class="grid-r">
+                <h4 id="montrer" class="title  title--template template2">Montrer le projet</h4>
+                <div class="list-template">
+                    <p class="p-temp">Nous avons atteint une étape importante dans notre processus de recherche et de réflexion.
+                         Pour partager nos résultats de manière efficace, nous avons choisi une approche multimédia en créant un site web et une vidéo explicative.
+                          Ces deux supports nous aideront à présenter nos travaux de façon dynamique et accessible</p>
+                    <p class="p-temp">Enfin, il nous faut encore un dernier petit atout pour le bien du jury qui va nous acceuilir le 14 juin.
+                        Pour que les personnes pendant la présentation comprennent de quoi tu parles, il faut un support visuel.
+                        Dans ce cas ci j'ai choisi une approche avec des slides au même design que mon site</p>
+                    </div>
+            </div>
+            <div class="grid-l image-template">
+                <iframe width="400" height="700" src="assets/video/videotfa.mp4"> </iframe>
+            </div>
+        </div>
 
-  <div class="grid--template fonct">
-      <div class="grid-r">
-          <h4 id="montrer" class="title  title--template template2">Montrer le projet</h4>
-          <div class="list-template">
-              <p class="p-temp">Nous avons atteint une étape importante dans notre processus de recherche et de réflexion.
-                   Pour partager nos résultats de manière efficace, nous avons choisi une approche multimédia en créant un site web et une vidéo explicative.
-                    Ces deux supports nous aideront à présenter nos travaux de façon dynamique et accessible</p>
-              <p class="p-temp">Enfin, il nous faut encore un dernier petit atout pour le bien du jury qui va nous acceuilir le 14 juin.
-                  Pour que les personnes pendant la présentation comprennent de quoi tu parles, il faut un support visuel.
-                  Dans ce cas ci j'ai choisi une approche avec des slides au même design que mon site</p>
-              </div>
-      </div>
-      <div class="grid-l image-template">
-          <iframe width="400" height="700" src="assets/video/videotfa.mp4"> </iframe>
-      </div>
-  </div>
-  
-  
-  
-  <footer class="section section__footer">
-      <ul class="footer__list">
-          <li class="footer__item">
-              <a href="https://www.figma.com/file/fdjlIKoY82zcPt0xpAmqme/UI-KIT-TFA?type=design&t=MGxlvhaLtU9TzFFk-1">UI-Kit</a>
-          </li>
-          <li class="footer__item">
-              <a href="credits.html">Crédits</a>
-          </li>
-          <li class="footer__item">
-              <a href="https://mathis-debras.be">Portfolio</a>
-          </li>
-      </ul>
-      <a href="#">
-          © 2023 Mathis Debras <span></span>
-      </a>
-      <a class="dwm" href="http://dwm.re/">
-          <svg viewBox="0 0 228.06 74.38" xmlns="http://www.w3.org/2000/svg">
-              <g fill-rule="evenodd">
-                  <path d="m17.78 0h-17.78v62.59h18.66c17.88 0 30.13-10.08 30.13-31.58s-12.26-31.01-31.02-31.01zm16.09 31c0 15-6.81 20.16-16.89 20.16h-2.36v-39.74h2.38c10.06 0 16.87 4.58 16.87 19.58zm18.86-31h15.11l2 33.31.3 15.74h.4c.88-5.66 2.07-10.46 3.16-15.74l4.3-17.47h9.28l4 17.47c1.09 5.19 2.17 10 3.16 15.74h.4c.1-5.75.19-10.55.39-15.74l1.84-33.31h14.12l-7.9 62.59h-15.6l-3.76-19.39a87.14 87.14 0 0 1 -1.77-11.9h-.3q-.57 6-1.67 11.9l-3.76 19.39h-15.11zm64.58 0h15.2l6.33 22.18 2.16 8.64h.39l2.17-8.64 6.34-22.18h15.21v62.59h-12.26v-19.39c0-7 1.28-22.27 1.88-29h-.3l-4.93 16.7-4.94 15.1h-7.11l-5-15.08-4.64-16.7h-.3c.69 6.72 1.88 22 1.88 29v19.37h-12v-62.59"/>
-                  <path d="m183.22 74.38h44.84v-11.79h-44.84z" fill="#f6d94f"/>
-              </g>
-          </svg>
-      </a>
-  </footer>
-  <script src="scripts/main.js" defer></script>
-</body>
+        <div class="grid--template fonct">
+            <div class="grid-r">
+                <h4 id="conclusion" class="title  title--template template1">Clap de fin</h4>
+                <div class="list-template">
+                    <h5 class="title title--template2">Conclusion</h5>
+                    <p class="p-temp">Le projet de fin d'année a été une expérience incroyable. En interagissant avec les gens,
+                         j'ai découvert de nouvelles perspectives et appris à résoudre des problèmes du quotidien en collaborant avec eux.
+                          Cette expérience m'a aidé à développer des compétences techniques et humaines, en écoutant activement les besoins des autres et en trouvant des solutions adaptées.
+                           J'ai compris l'importance de la communication dans la création de solutions significatives.</p>
+                    </div>
+            </div>
+            <div class="grid-l image-template ">
+                <img src="assets/images/fin.jpg" class="marg-template png-template png-1" alt="Photo d'une feuille ou il est marqué FIN.">
+            </div>
+        </div>
+        
+        
+        
+        <footer class="section section__footer">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="https://www.figma.com/file/fdjlIKoY82zcPt0xpAmqme/UI-KIT-TFA?type=design&t=MGxlvhaLtU9TzFFk-1">UI-Kit</a>
+                </li>
+                <li class="footer__item">
+                    <a href="credits.html">Crédits</a>
+                </li>
+                <li class="footer__item">
+                    <a href="https://mathis-debras.be">Portfolio</a>
+                </li>
+            </ul>
+            <a href="#">
+                © 2023 Mathis Debras <span></span>
+            </a>
+            <a class="dwm" href="http://dwm.re/">
+                <svg viewBox="0 0 228.06 74.38" xmlns="http://www.w3.org/2000/svg">
+                    <g fill-rule="evenodd">
+                        <path d="m17.78 0h-17.78v62.59h18.66c17.88 0 30.13-10.08 30.13-31.58s-12.26-31.01-31.02-31.01zm16.09 31c0 15-6.81 20.16-16.89 20.16h-2.36v-39.74h2.38c10.06 0 16.87 4.58 16.87 19.58zm18.86-31h15.11l2 33.31.3 15.74h.4c.88-5.66 2.07-10.46 3.16-15.74l4.3-17.47h9.28l4 17.47c1.09 5.19 2.17 10 3.16 15.74h.4c.1-5.75.19-10.55.39-15.74l1.84-33.31h14.12l-7.9 62.59h-15.6l-3.76-19.39a87.14 87.14 0 0 1 -1.77-11.9h-.3q-.57 6-1.67 11.9l-3.76 19.39h-15.11zm64.58 0h15.2l6.33 22.18 2.16 8.64h.39l2.17-8.64 6.34-22.18h15.21v62.59h-12.26v-19.39c0-7 1.28-22.27 1.88-29h-.3l-4.93 16.7-4.94 15.1h-7.11l-5-15.08-4.64-16.7h-.3c.69 6.72 1.88 22 1.88 29v19.37h-12v-62.59"/>
+                        <path d="m183.22 74.38h44.84v-11.79h-44.84z" fill="#f6d94f"/>
+                    </g>
+                </svg>
+            </a>
+        </footer>
+        <script src="scripts/main.js" defer></script>
+    </body>
 </html>
